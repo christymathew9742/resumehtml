@@ -4231,10 +4231,44 @@ img.u-pull-left {
         top   : calc(var(--vspace-0_25) * -1);
         right : calc(6vw + var(--gutter));
     }
+    #about {
+        margin-bottom: -14rem!important;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .ss-go-top {
         right : 6vw;
     }
+}
+h1 {
+    font-family: 'Public Sans'!important;
+}
+
+@media only screen and (min-width: 1024px) {
+    h1 {
+      line-height: 12rem !important;
+    }
+    .tech {
+        width: 90%;
+    }
+    .exprt li, .project, .qustion {
+        line-height: 8rem!important;
+        font-size: 5rem!important;
+    }
+    .modal-popup {
+        height: 600px!important;
+    }
+}
+
+.tech {
+    color: #baa130!important;
+    letter-spacing: 2px!important;
+    line-height: 4rem!important;
+    font-size: 24px!important;
+    font-weight: normal!important;
+}
+
+section {
+    border-bottom: 1px solid #343232!important;
 }
