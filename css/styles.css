@@ -4231,9 +4231,6 @@ img.u-pull-left {
         top   : calc(var(--vspace-0_25) * -1);
         right : calc(6vw + var(--gutter));
     }
-    #about {
-        margin-bottom: -14rem!important;
-    }
 }
 
 @media screen and (max-width: 400px) {
