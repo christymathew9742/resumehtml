@@ -4231,6 +4231,9 @@ img.u-pull-left {
         top   : calc(var(--vspace-0_25) * -1);
         right : calc(6vw + var(--gutter));
     }
+    .basicLightbox {
+        height: 100vh!important;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -4268,4 +4271,8 @@ h1 {
 
 section {
     border-bottom: 1px solid #343232!important;
+}
+
+.folio-list__item {
+    padding: 20px!important;
 }
