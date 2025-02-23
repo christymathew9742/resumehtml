@@ -4016,7 +4016,7 @@ img.u-pull-left {
     .folio-list__item-pic img {
         max-width : 100%;
         width     : 100%;
-        height    : auto;
+        height    : 110px;
     }
 
     .folio-list__item-text,
@@ -4233,6 +4233,18 @@ img.u-pull-left {
     }
     .basicLightbox {
         height: 100vh!important;
+    }
+    .basicLightbox::after {
+        background-color: #929142;
+        color: white;
+        z-index: 10000;
+        border-radius: 50px;
+        top: 10.8rem;
+        right: 0.8rem;
+    }
+    .modal-popup img {
+        width: 500px!important;
+        height: 300px!important;
     }
 }
 
