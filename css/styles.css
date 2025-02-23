@@ -4237,6 +4237,14 @@ img.u-pull-left {
     .modal-popup {
         height: 100vh;
     }
+    .modal-popup img {
+        height: 250px;
+        width: 100%;
+    }
+}
+
+.folio-list__proj-link {
+    margin-top:10px;
 }
 
 .basicLightbox::after {
@@ -4271,6 +4279,7 @@ h1 {
     .modal-popup {
         height: 600px!important;
     }
+
     .basicLightbox::after {
         right: 32rem;
     }
