@@ -4234,17 +4234,18 @@ img.u-pull-left {
     .basicLightbox {
         height: 100vh!important;
     }
-    .basicLightbox::after {
-        background-color: #929142;
-        color: white;
-        z-index: 10000;
-        border-radius: 50px;
-        top: 1.8rem;
-        right: 0.8rem;
-    }
     .modal-popup {
         height: 100vh;
     }
+}
+
+.basicLightbox::after {
+    background-color: #929142;
+    color: white;
+    z-index: 10000;
+    border-radius: 50px;
+    top: 1.8rem;
+    right: 0.8rem;
 }
 
 @media screen and (max-width: 400px) {
@@ -4270,6 +4271,17 @@ h1 {
     .modal-popup {
         height: 600px!important;
     }
+    .basicLightbox::after {
+        right: 32rem;
+    }
+
+}
+
+.about-expertise{
+    padding-top: 65px!important;
+}
+.about-timelines {
+    padding-top: 20px!important;
 }
 
 .tech {
