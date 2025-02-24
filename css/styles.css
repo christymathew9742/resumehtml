@@ -4283,6 +4283,9 @@ h1 {
     .basicLightbox::after {
         right: 32rem;
     }
+    .contact-bottom a {
+        font-size: 18px!important;
+    }
 
 }
 
